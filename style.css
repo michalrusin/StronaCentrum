@@ -79,8 +79,26 @@ body{
     height: 700px;
 }
 
-#footer{
-    background-color: var(--grey);
-    height: 100px;
-    color: var(--mainWhite);
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+footer h3, footer h4 {
+    font-weight: bold;
+}
+
+footer ul li {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #b3fda4;
 }
