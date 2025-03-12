@@ -10,7 +10,19 @@
   </head>
   <body>
     <nav id="navbar">
-      <h1>LOGO</h1>
+      <div class="logo">Logo</div>
+		<div class="menu" id="menu">
+		  <a href="#">Start</a>
+		  <a href="#">Projekty</a>
+		  <a href="#">Klasy</a>
+		</div>
+    <div class="toggle" id="toggle">☰</div>
+  </nav>
+  <script>
+	document.getElementById('toggle').addEventListener('click', function() {
+      document.getElementById('menu').classList.toggle('show');
+    });
+  </script>
     </nav>
     <section id="hero-section">
       <div id="hero">
