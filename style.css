@@ -66,6 +66,58 @@ body{
     background-color: rgb(226, 209, 209);
     height: 700px;
 }
+.hero-container {
+  height: 700px;
+  background-color: #c1f1ff;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-subtitle {
+  color: #bbb;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.highlight {
+  color: #9B5DE5;
+}
+
+.hero-text {
+  color: #bbb;
+}
+
+
+.btn-custom {
+  padding: 15px 40px !important;  
+  border-radius: 30px !important;
+  background-color: #9B5DE5 !important;
+  color: white !important;
+  text-decoration: none !important;
+  display: inline-block;
+  border: none !important;
+}
+
+.btn-custom:hover {
+  background-color: #7e3cb5 !important; 
+  color: #fff !important;
+}
+
 #projects{
     background-color: rgb(228, 228, 228);
     height: 700px;
@@ -83,8 +135,12 @@ footer {
     background-color: #343a40;
     color: #fff;
     padding-top: 3rem;
+    display: flex;
 }
 
+.fot-con{
+  justify-items: center;
+}
 footer h3, footer h4 {
     font-weight: bold;
 }
