@@ -119,19 +119,22 @@ body{
   color: #bbb;
 }
 
+img{
+  width: 300px;
+}
 
 .btn-custom {
   padding: 15px 40px !important;  
   border-radius: 30px !important;
-  background-color: #9B5DE5 !important;
+  background-color: #84ff6b!important;
   color: white !important;
   text-decoration: none !important;
   display: inline-block;
-  border: none !important;
+  border: none;
 }
 
 .btn-custom:hover {
-  background-color: #7e3cb5 !important; 
+  background-color: #6ffd53!important; 
   color: #fff !important;
 }
 
@@ -141,7 +144,7 @@ body{
 }
 #class{
     background-color: rgb(200, 231, 202);
-    height: 700px;
+    height: auto;
 }
 #other{
     background-color: rgb(172, 211, 221);
