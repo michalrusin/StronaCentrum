@@ -119,9 +119,7 @@ body{
   color: #bbb;
 }
 
-img{
-  width: 300px;
-}
+
 
 .btn-custom {
   padding: 15px 40px !important;  
@@ -142,10 +140,7 @@ img{
     background-color: rgb(228, 228, 228);
     height: 700px;
 }
-#class{
-    background-color: rgb(200, 231, 202);
-    height: auto;
-}
+
 #other{
     background-color: rgb(172, 211, 221);
     height: 700px;
