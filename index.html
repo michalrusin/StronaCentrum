@@ -1,143 +1,416 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Strona Centrum</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav id="navbar">
-      <div class="logo">Logo</div>
-		<div class="menu" id="menu">
-		  <a href="#">Start</a>
-		  <a href="#">Projekty</a>
-		  <a href="#">Klasy</a>
-		</div>
-    <div class="toggle" id="toggle">☰</div>
-  </nav>
-  <script>
-	document.getElementById('toggle').addEventListener('click', function() {
-      document.getElementById('menu').classList.toggle('show');
-    });
-  </script>
-    </nav>
-    <section id="hero-section">
-      <div id="hero">
-          <div class="hero-container position-relative w-100">
-              <div class="overlay position-absolute d-flex flex-column align-items-start justify-content-center">
-                  <div class="container">
-                      <div class="col-md-6">
-                          <span class="hero-subtitle">Centrum Informatyczne</span>
-                          <h1 class="hero-title">Jakiś fajny<span class="highlight"> Tytuł</span></h1>
-                          <p class="hero-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem eos ea, cum quae facilis optio impedit tempora aliquam at eveniet?</p>
-                          <div class="mt-5"> 
-                              <a href="#projects"class="btn-custom">Zobacz więcej</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>      
-      </div>
-  </section>
-    <section id="projects-section">
-      <div id="projects">
-        <div class="title"><h1>Projekty</h1></div>
-        <div id="projects_container">
-          <div class="projects_box">
-            asd
-
-          </div>
-          <div class="projects_box">
-
-            as
-          </div>
-          <div class="projects_box">
-
-            asd
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <section id="class-section">
-      <div class="container py-4">
-          
-          <div class="p-5 mb-4 text-bg-success rounded-3 ">
-              <div class="row align-items-center">
-                  <div class="col-md-5 text-center">
-                      <img src="198.jpg" class="img-fluid  rounded" alt="IMG">
-                  </div>
-                  <div class="col-md-7">
-                      <h2 class="display-5 fw-bold">Sala 102b</h2>
-                      <p class="fs-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-              </div>
-          </div>
-  
-         
-          <div class="row">
-              <div class="col-md-4 mt-1">
-                  <div class="h-100 p-4 bg-body-tertiary  rounded-3">
-                      <img src="198.jpg" class="img-fluid rounded mb-3 d-block mx-auto" alt="IMG">
-                      <h3 class="text-center">Sala 101B</h3>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-              </div>
-              <div class="col-md-4 mt-1">
-                  <div class="h-100 p-4 text-bg-success rounded-3">
-                      <img src="198.jpg" class="img-fluid  rounded mb-3 d-block mx-auto" alt="IMG">
-                      <h3 class="text-center">Akwarium</h3>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-              </div>
-              <div class="col-md-4 mt-1">
-                  <div class="h-100 p-4 bg-body-tertiary rounded-3">
-                      <img src="198.jpg" class="img-fluid  rounded mb-3 d-block mx-auto" alt="IMG">
-                      <h3 class="text-center">Sala 105B</h3>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  
-    <section id="other-section">
-      <div id="other">
-        <div class="title"><h1>Other?</h1></div>
-      </div>
-    </section>
-     <footer>
-  <div class="container px-5">
-    <div class="row justify-content-center text-center">
-        <div class="col-6 col-lg-4">
-            <h3 class="fw-bold">Centrum Informatyczne</h3>
-            <p class="pt-2">Zespół Szkół nr. 1 im. Powstańców Wielkopolskich w Swarzędzu</p>
-            <p class="mb-2">Os. Mielżyńskiego 5A</p>
-            <p>62-020 Swarzędz</p>
-        </div>
-        <div class="col-6 col-lg-4">
-            <h4>Menu</h4>
-            <ul class="list-unstyled pt-2">
-                <li class="py-1"><a href="#hero">Home</a></li>
-                <li class="py-1"><a href="#projects">Projekty</a></li>
-                <li class="py-1"><a href="#class">Klasy</a></li>
-                <li class="py-1"><a href="#other">Other?</a></li>
-            </ul>
-        </div>
+<!DOCTYPE html>
+<html lang="pl">
+<head>  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centrum - Technik Informatyk</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-success" href="#hero">
+      <svg width="32" height="32" viewBox="0 0 38 38" fill="none"><circle cx="19" cy="19" r="17" fill="#1ed760"/><text x="50%" y="60%" text-anchor="middle" fill="#fff" font-size="16" font-family="Montserrat,sans-serif" dy=".3em">IT</text></svg>
+      Centrum
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#hero">Start</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">O profilu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projekty</a></li>
+        <li class="nav-item"><a class="nav-link" href="#class-section">Klasy</a></li>
+      </ul>
     </div>
-    <hr>
-    <div class="d-sm-flex justify-content-between py-1">
-        <p>2025 © Zespół Szkół nr. 1 im. Powstańców Wielkopolskich w Swarzędzu</p>
-        <p>
-            <a href="https://zs1-swarzedz.pl" class="pe-4">Strona Szkoły</a>
-            <a href="#">Polityka Prywatności</a>
-        </p>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero-section d-flex align-items-center min-vh-100 position-relative overflow-hidden">
+  <video class="hero-bg-video position-absolute w-100 h-100 object-fit-cover" src="Filmik zs1.mp4" autoplay loop muted playsinline></video>  <div class="container position-relative z-2 d-flex flex-column align-items-center justify-content-center text-center px-4">
+    <h1 class="hero-title display-4 display-md-3 fw-bold mb-3 animate-fade-in-up">Centrum Informatyczne</h1>
+    <p class="hero-desc lead px-md-5 mb-4 animate-fade-in-up" style="animation-delay:0.2s">Nowoczesna edukacja IT. Przyszłość zaczyna się tutaj.</p>
+    <a href="#about" class="btn btn-success btn-lg w-200 w-sm-auto px-5 py-3 animate-fade-in-up" style="animation-delay:0.4s">Dowiedz się więcej</a>
+  </div>
+</section>
+
+<!-- TECHNIK INFORMATYK -->
+<div class="sticky-scroll-wrapper">
+<section id="about" class="profile-scroll-section position-relative overflow-hidden d-flex align-items-center justify-content-center" style="min-height: 100vh; background: linear-gradient(135deg, #f5f7fa 0%, #e4ffe1 100%);">
+  <div class="container position-relative z-2">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">        <div class="profile-text-box opacity-0 bg-white p-4 p-sm-5 rounded-4 shadow-lg" id="profileText">
+          <div class="text-center mb-4">
+            <span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill mb-3 d-inline-block">Profil zawodowy</span>
+            <h2 class="display-5 display-md-4 fw-bold mb-3 text-success">Technik Informatyk</h2>
+          </div>
+          <p class="lead fs-6 fs-md-5 mb-4 text-secondary">Zawód przyszłości, który łączy kreatywność z praktyczną wiedzą. Uczniowie zdobywają kompetencje z zakresu programowania, sieci, baz danych, systemów operacyjnych i cyberbezpieczeństwa.</p>          <div class="row g-3 g-md-4 mb-4">
+            <div class="col-12 col-md-6">
+              <div class="qualification-card p-3 p-md-4 rounded-3 border bg-light h-100">
+                <div class="d-flex align-items-center mb-2 mb-md-3">
+                  <span class="badge bg-primary-subtle text-primary rounded-circle p-2 me-2">1</span>
+                  <h5 class="fw-bold mb-0 fs-6 fs-md-5">Kwalifikacja INF.02</h5>
+                </div>
+                <p class="mb-0 text-secondary small">Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych i lokalnych sieci komputerowych</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="qualification-card p-3 p-md-4 rounded-3 border bg-light h-100">
+                <div class="d-flex align-items-center mb-2 mb-md-3">
+                  <span class="badge bg-primary-subtle text-primary rounded-circle p-2 me-2">2</span>
+                  <h5 class="fw-bold mb-0 fs-6 fs-md-5">Kwalifikacja INF.03</h5>
+                </div>
+                <p class="mb-0 text-secondary small">Tworzenie i administrowanie stronami oraz aplikacjami internetowymi i bazami danych</p>
+              </div>
+            </div>
+          </div>          <div class="alert alert-success-subtle border-success p-3 p-md-4 mb-4 mb-md-5">
+            <div class="d-flex align-items-start">
+              <div class="me-3">
+                <i class="bi bi-lightbulb fs-5 fs-md-4 text-success"></i>
+              </div>
+              <div>
+                <p class="mb-0 small">Profil przygotowuje do pracy w branży IT oraz dalszego rozwoju na studiach technicznych.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2 g-md-4 justify-content-center" id="skillsRow">
+          <div class="col-6 col-md-3">
+            <div class="skill-tile tile-hidden text-center p-3 p-md-4 rounded-4 shadow-sm hover-shadow bg-white border h-100">
+              <span class="fs-2 fs-md-1 text-primary"><i class="bi bi-code-slash"></i></span>
+              <div class="fw-bold mt-2 small">Programowanie</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-tile tile-hidden text-center p-3 p-md-4 rounded-4 shadow-sm hover-shadow bg-white border h-100">
+              <span class="fs-2 fs-md-1 text-success"><i class="bi bi-hdd-network"></i></span>
+              <div class="fw-bold mt-2 small">Sieci</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-tile tile-hidden text-center p-3 p-md-4 rounded-4 shadow-sm hover-shadow bg-white border h-100">
+              <span class="fs-2 fs-md-1 text-info"><i class="bi bi-database"></i></span>
+              <div class="fw-bold mt-2 small">Bazy danych</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-tile tile-hidden text-center p-3 p-md-4 rounded-4 shadow-sm hover-shadow bg-white border h-100">
+              <span class="fs-2 fs-md-1 text-warning"><i class="bi bi-tools"></i></span>
+              <div class="fw-bold mt-2 small">Hardware</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+<!-- PROJEKTY -->
+<section id="projects" class="py-5 position-relative overflow-hidden bg-gradient-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill mb-3 d-inline-block">Realizacje</span>
+      <h2 class="display-5 display-md-4 fw-bold text-success mb-0">Projekty naszych uczniów</h2>
+    </div>
+    
+    <div id="projectsCarousel" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="project-card card h-100 border-0 shadow-sm hover-up rounded-4 overflow-hidden">
+                <div class="card-img-overlay-wrapper position-relative">
+                  <img src="198.jpg" class="card-img-top" alt="Projekt Architektura">
+                  <div class="card-img-overlay d-flex align-items-end p-0">
+                    <div class="w-100 p-4 project-card-content">
+                      <h5 class="card-title fw-bold text-white mb-3">Eco Filament</h5>
+                      <button class="btn btn-success rounded-pill px-4 project-details-btn" data-bs-toggle="modal" data-bs-target="#projectModal1" data-slide="0">
+                        <span>Szczegóły</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+              <div class="project-card card h-100 border-0 shadow-sm hover-up rounded-4 overflow-hidden">
+                <div class="card-img-overlay-wrapper position-relative">
+                  <img src="198.jpg" class="card-img-top" alt="Projekt Wnętrza">
+                  <div class="card-img-overlay d-flex align-items-end p-0">
+                    <div class="w-100 p-4 project-card-content">
+                      <h5 class="card-title fw-bold text-white mb-3">AI w kapeluszach</h5>
+                      <button class="btn btn-success rounded-pill px-4 project-details-btn" data-bs-toggle="modal" data-bs-target="#projectModal2" data-slide="0">
+                        <span>Szczegóły</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+              <div class="project-card card h-100 border-0 shadow-sm hover-up rounded-4 overflow-hidden">
+                <div class="card-img-overlay-wrapper position-relative">
+                  <img src="198.jpg" class="card-img-top" alt="Projekt Graficzny">
+                  <div class="card-img-overlay d-flex align-items-end p-0">
+                    <div class="w-100 p-4 project-card-content">
+                      <h5 class="card-title fw-bold text-white mb-3">Mutatio</h5>
+                      <button class="btn btn-success rounded-pill px-4 project-details-btn" data-bs-toggle="modal" data-bs-target="#projectModal3" data-slide="0">
+                        <span>Szczegóły</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="project-card card h-100 border-0 shadow-sm hover-up rounded-4 overflow-hidden">
+                <div class="card-img-overlay-wrapper position-relative">
+                  <img src="198.jpg" class="card-img-top" alt="Projekt Sieciowy">
+                  <div class="card-img-overlay d-flex align-items-end p-0">
+                    <div class="w-100 p-4 project-card-content">
+                      <h5 class="card-title fw-bold text-white mb-3">Akademia Cisco</h5>
+                      <button class="btn btn-success rounded-pill px-4 project-details-btn" data-bs-toggle="modal" data-bs-target="#projectModal4" data-slide="1">
+                        <span>Szczegóły</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+              <div class="project-card card h-100 border-0 shadow-sm hover-up rounded-4 overflow-hidden">
+                <div class="card-img-overlay-wrapper position-relative">
+                  <img src="198.jpg" class="card-img-top" alt="Projekt Webowy">
+                  <div class="card-img-overlay d-flex align-items-end p-0">
+                    <div class="w-100 p-4 project-card-content">
+                      <h5 class="card-title fw-bold text-white mb-3">IoT(Internet Rzeczy)</h5>
+                      <button class="btn btn-success rounded-pill px-4 project-details-btn" data-bs-toggle="modal" data-bs-target="#projectModal5" data-slide="1">
+                        <span>Szczegóły</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+              <div class="project-card card h-100 border-0 shadow-sm hover-up rounded-4 overflow-hidden">
+                <div class="card-img-overlay-wrapper position-relative">
+                  <img src="198.jpg" class="card-img-top" alt="Projekt Mobilny">
+                  <div class="card-img-overlay d-flex align-items-end p-0">
+                    <div class="w-100 p-4 project-card-content">
+                      <h5 class="card-title fw-bold text-white mb-3">Droga do Przyszłość 2022/2023</h5>
+                      <button class="btn btn-success rounded-pill px-4 project-details-btn" data-bs-toggle="modal" data-bs-target="#projectModal6" data-slide="1">
+                        <span>Szczegóły</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+
+
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title fw-bold text-success" id="projectModal1Label">Eco Filament</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+          </div>
+          <div class="modal-body p-0">
+            <img src="198.jpg" class="img-fluid w-100" alt="Projekt Architektura">
+            <div class="p-4">
+              <p class="mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title fw-bold text-success" id="projectModal2Label">AI w kapeluszach</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+          </div>
+          <div class="modal-body p-0">
+            <img src="198.jpg" class="img-fluid w-100" alt="Projekt Wnętrza">
+            <div class="p-4">
+              <p class="mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title fw-bold text-success" id="projectModal3Label">Mutatio</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+          </div>
+          <div class="modal-body p-0">
+            <img src="198.jpg" class="img-fluid w-100" alt="Projekt Graficzny">
+            <div class="p-4">
+              <p class="mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title fw-bold text-success" id="projectModal4Label">IoT</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+          </div>
+          <div class="modal-body p-0">
+            <img src="198.jpg" class="img-fluid w-100" alt="Projekt Sieciowy">
+            <div class="p-4">
+              <p class="mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title fw-bold text-success" id="projectModal5Label">Akademia Cisco</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+          </div>
+          <div class="modal-body p-0">
+            <img src="198.jpg" class="img-fluid w-100" alt="Projekt Webowy">
+            <div class="p-4">
+              <p class="mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="projectModal6Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="modal-header border-0 bg-light">
+            <h5 class="modal-title fw-bold text-success" id="projectModal6Label">Droga do Przyszłości 2023=</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+          </div>
+          <div class="modal-body p-0">
+            <img src="198.jpg" class="img-fluid w-100" alt="Projekt Mobilny">
+            <div class="p-4">
+              <p class="mb-0 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="sticky-scroll-wrapper" style="height: 220vh; position: relative;">
+  <section id="class-section" class="sticky-scroll-section position-sticky top-0 d-flex align-items-center justify-content-center" style="height: 100vh; min-height: 600px; background: linear-gradient(135deg, #f5f7fa 0%, #e4ffe1 100%); z-index: 2;">
+    <div class="container position-relative z-2">
+      <div class="text-center mb-5">
+        <span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill mb-3 d-inline-block">Infrastruktura</span>
+        <h2 class="display-5 display-md-4 fw-bold text-success mb-0">Nasze sale lekcyjne</h2>
+      </div>
+      <div class="row gx-5 gy-4 align-items-start justify-content-center">
+      
+        <div class="col-md-7 d-flex flex-column align-items-center position-relative">
+       
+          <div class="room-anchor room-anchor-abs" data-room="101B"></div>
+          <div class="room-anchor room-anchor-abs" data-room="102B"></div>
+          <div class="room-anchor room-anchor-abs" data-room="105B"></div>
+          <div class="room-anchor room-anchor-abs" data-room="Akwarium"></div>
+          <div id="classroom-modal" class="card border-0 shadow-lg rounded-4 overflow-hidden p-0" style="max-width: 600px; width: 100%;">
+            <img id="classroom-img" src="198.jpg" class="card-img-top" alt="Sala 101B">
+            <div class="card-body p-4">
+              <h3 id="classroom-title" class="h4 fw-bold text-success mb-3">Sala 101B</h3>
+              <p id="classroom-desc" class="text-secondary mb-3">Sala do zajęć teoretycznych wyposażona w sprzęt multimedialny, idealna do prowadzenia wykładów i prezentacji.</p>
+              <h6 class="fw-bold mb-3">Wyposażenie sali:</h6>
+              <ul id="classroom-features" class="list-unstyled text-secondary mb-0">
+                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Projektor multimedialny</li>
+                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>System nagłośnienia</li>
+                <li><i class="bi bi-check2-circle text-success me-2"></i>30 miejsc dla uczniów</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-5 d-flex flex-column align-items-center">
+          <div class="w-100" style="max-width: 340px;">
+            <ul id="classroom-list" class="list-unstyled fs-3 fw-bold lh-lg mb-0">
+              <li class="classroom-link active" data-room="101B">Sala 101B</li>
+              <li class="classroom-link" data-room="102B">Sala 102B</li>
+              <li class="classroom-link" data-room="105B">Sala 105B</li>
+              <li class="classroom-link" data-room="Akwarium">Akwarium</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer class="bg-light border-top py-4 mt-auto" id="footer">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5 class="fw-bold text-success mb-1">Centrum Informatyczne</h5>
+        <div class="text-muted small">ZS1 im. Powstańców Wielkopolskich w Swarzędzu<br>os. Mielżyńskiego 5A, 62-020 Swarzędz</div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <nav class="nav justify-content-center">
+          <a class="nav-link text-success" href="#hero">Start</a>
+          <a class="nav-link text-success" href="#about">O profilu</a>
+          <a class="nav-link text-success" href="#projects">Projekty</a>
+          <a class="nav-link text-success" href="#class-section">Klasy</a>
+        </nav>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <div class="text-muted small">&copy; 2025 ZS1 Swarzędz<br>Wykonanie: <span class="text-success">Centrum IT</span></div>
+      </div>
     </div>
   </div>
 </footer>
-  </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
